@@ -1,0 +1,14 @@
+﻿@{
+    var text = this.ViewData["text"];
+}
+@model Study.Models.ProductModel
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <div><div class="card-body">
+             <h5 class="card-title">view detail @Model.Name</h5>
+            <p class="card-text">Price @Model.Price</p>
+            <a href="#" class="btn btn-primary">@text @ViewBag.year</a>
+        </div></div>
+    </div>
+
+
